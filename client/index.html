@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+   
+    <title>Document</title>
+</head>
+   
+
+<body class="bg-gray-100">
+    <div class="container mx-auto p-4">
+        <form enctype="multipart/form-data" class="mb-4">
+            <label for="file-upload" class="block font-bold mb-2">Select file:</label>
+            <input id="file-upload" type="file" name="file" class="border rounded py-2 px-3 mb-2">
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">POST to
+                server</button>
+        </form>
+        <h3 class="font-bold mb-2">Transcribe:</h3>
+        <p class="transcribe-text bg-white rounded py-2 px-3 mb-4">...</p>
+        <h3 class="font-bold mb-2">Accuracy:</h3>
+        <p class="accuracy bg-white rounded py-2 px-3">...</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form enctype="multipart/form-data">
+        <label for="file-upload">Select file:</label>
+        <input id="file-upload" type="file" name="file" />
+        <input type="submit" value="POST to server"></input>
+    </form>
+    <h3>Transcribe :</h3>
+    <p class="transcribe-text"  ></p>
+    <h3>Accuracy :</h3>
+    <p class="accuracy"></p>
+    <script src="app.js"></script>
+</body>
+</html> -->
